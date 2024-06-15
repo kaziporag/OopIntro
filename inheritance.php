@@ -1,6 +1,6 @@
 <?php 
 
-// Inheritance class
+// Class
 class employee{
 
     // Properties

@@ -5,7 +5,7 @@ class parents {
 
     public $name;
 
-    public function __construct($name) {
+    public function __construct( $name ) {
         $this->name = $name;
     }
 
@@ -15,7 +15,7 @@ class parents {
 
 }
 
-$display = new parents("Porag Islam");
+$display = new parents( "Porag Islam" );
 
 $display->display();
 
@@ -25,7 +25,7 @@ class parentsTwo {
 
     protected $name;
 
-    public function __construct($name) {
+    public function __construct( $name ) {
         $this->name = $name;
     }
 
@@ -43,7 +43,7 @@ class childtwo extends parentsTwo {
 
 }
 
-$display = new childtwo("Porag Islam");
+$display = new childtwo( "Porag Islam" );
 $display->displayex();
 
 
@@ -53,7 +53,7 @@ class parentsThree {
 
     private $name;
 
-    public function __construct($name) {
+    public function __construct( $name ) {
         $this->name = $name;
     }
 

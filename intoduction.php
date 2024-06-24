@@ -13,12 +13,12 @@ class Intoduction {
     public $a, $b, $c;
 
     // Method
-    function sum(){
+    function sum() {
         $this->c = $this->a + $this->b;
         return $this->c;
     }
     // Method
-    function sub(){
+    function sub() {
         $this->c = $this->a - $this->b;
         return $this->c;
     }

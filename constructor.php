@@ -6,17 +6,17 @@
  */
 
  // Clsaa Start
- class person{
+ class person {
 // Properties
     public $name;
     public $age;
 // Constructor
-    function __construct($name = "No Name", $age = 0){
+    function __construct( $name = "No Name", $age = 0 ) {
         $this->name = $name;
         $this->age = $age;
     }
 // Method
-    function show(){
+    function show() {
         echo "Name: " . $this->name . " And Age: " . $this->age . "<br>";
     }
  }
@@ -24,8 +24,8 @@
  // Class End
 
  // Object Start
- $p1 = new person("Kazi", 25);
- $p2 = new person("Maliyat", 7);
+ $p1 = new person( "Kazi", 25 );
+ $p2 = new person( "Maliyat", 7 );
  $p3 = new person();
 // Object End
 

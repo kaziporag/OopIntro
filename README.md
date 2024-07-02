@@ -5,3 +5,4 @@
 5. Basic understanding of OOP Interfaces
 6. Basic understanding of Static Members
 7. Basic understanding of Late Static Binding
+8. Traits Method Example

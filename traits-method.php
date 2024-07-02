@@ -30,6 +30,22 @@ class parents {
 //     }
 // }
 
+
 $show = new parents();
 $show->show();
 $show->newshow();
+
+trait commonThree {
+    private function show() {
+        echo "This is from trait three. \n";
+    }
+}
+
+class parents2 {
+    use commonThree {
+        commonThree::show as public showthree;
+    }
+}
+
+$show = new parents2();
+$show->showthree();
